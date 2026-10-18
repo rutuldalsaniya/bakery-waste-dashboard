@@ -1,9 +1,3 @@
-1) Yes, the repo is rutuldalsaniya/bakery-waste-dashboard.
-2) README text is below.
-3) Yes, commit to the default branch (main).
-
-README.md:
-
 # Bakery Waste Analysis: Ordering vs. Returns
 
 A self-initiated analytics project from my job at a Berlin bakery branch. I digitised paper delivery notes and return slips, modelled orders against leftovers, and built Power BI and Looker Studio dashboards that show how much less to order per product and weekday.
