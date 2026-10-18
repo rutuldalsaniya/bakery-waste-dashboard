@@ -1,0 +1,336 @@
+product_id,date,weekday,product_name,category,bakery_item,shelf_life_days,qty_ordered,qty_ordered_prev_days,qty_available,qty_leftover,qty_sold_est,waste_pct,row_type,flag,confidence
+P001,2026-09-26,Saturday,Bread 1,Bread,yes,1,1.0,0.0,1.0,0.0,1.0,0.0,ordered,,high
+P002,2026-09-26,Saturday,Bread 2,Bread,yes,1,28.0,0.0,28.0,8.5,19.5,30.4,ordered,,high
+P003,2026-09-26,Saturday,Bread 3,Bread,yes,1,15.0,0.0,15.0,5.0,10.0,33.3,ordered,,high
+P004,2026-09-26,Saturday,Bread 4,Bread,yes,1,4.0,0.0,4.0,1.0,3.0,25.0,ordered,,high
+P005,2026-09-26,Saturday,Bread 5,Bread,yes,1,5.0,0.0,5.0,0.0,5.0,0.0,ordered,,high
+P006,2026-09-26,Saturday,Bread 6,Bread,yes,2,10.0,,,0.5,,,ordered,2-day item: earlier deliveries not in data,high
+P007,2026-09-26,Saturday,Bread 7,Bread,yes,2,4.0,,,1.5,,,ordered,2-day item: earlier deliveries not in data,high
+P008,2026-09-26,Saturday,Bread 8,Bread,yes,2,4.0,,,0.5,,,ordered,2-day item: earlier deliveries not in data,high
+P009,2026-09-26,Saturday,Bread 9,Bread,yes,2,4.0,,,0.5,,,ordered,2-day item: earlier deliveries not in data,high
+P010,2026-09-26,Saturday,Bread 10,Bread,yes,2,4.0,,,2.0,,,ordered,2-day item: earlier deliveries not in data,high
+P011,2026-09-26,Saturday,Bread 11,Bread,yes,2,6.0,,,3.0,,,ordered,2-day item: earlier deliveries not in data,high
+P012,2026-09-26,Saturday,Bread 12,Bread,yes,2,4.0,,,0.0,,,ordered,2-day item: earlier deliveries not in data,high
+P014,2026-09-26,Saturday,Bread 14,Bread,yes,1,3.0,0.0,3.0,0.5,2.5,16.7,ordered,,high
+P015,2026-09-26,Saturday,Bread 15,Bread,yes,1,4.0,0.0,4.0,0.0,4.0,0.0,ordered,,high
+P016,2026-09-26,Saturday,Bread 16,Bread,yes,1,9.0,0.0,9.0,0.0,9.0,0.0,ordered,,high
+P017,2026-09-26,Saturday,Bread 17,Bread,yes,1,5.0,0.0,5.0,5.0,0.0,100.0,ordered,,high
+P018,2026-09-26,Saturday,Roll 1,Rolls,yes,1,,0.0,,46.0,,,leftover_only,no delivery that day (in-store snack or older stock),high
+P019,2026-09-26,Saturday,Roll 2,Rolls,yes,1,24.0,0.0,24.0,0.0,24.0,0.0,ordered,,high
+P020,2026-09-26,Saturday,Roll 3,Rolls,yes,1,64.0,0.0,64.0,38.0,26.0,59.4,ordered,,high
+P021,2026-09-26,Saturday,Roll 4,Rolls,yes,1,40.0,0.0,40.0,12.0,28.0,30.0,ordered,,high
+P022,2026-09-26,Saturday,Roll 5,Rolls,yes,1,15.0,0.0,15.0,0.0,15.0,0.0,ordered,,high
+P023,2026-09-26,Saturday,Roll 6,Rolls,yes,1,20.0,0.0,20.0,0.0,20.0,0.0,ordered,,high
+P024,2026-09-26,Saturday,Roll 7,Rolls,yes,1,15.0,0.0,15.0,5.0,10.0,33.3,ordered,,high
+P025,2026-09-26,Saturday,Roll 8,Rolls,yes,1,10.0,0.0,10.0,9.0,1.0,90.0,ordered,,high
+P026,2026-09-26,Saturday,Roll 9,Rolls,yes,1,30.0,0.0,30.0,0.0,30.0,0.0,ordered,,high
+P027,2026-09-26,Saturday,Roll 10,Rolls,yes,1,30.0,0.0,30.0,0.0,30.0,0.0,ordered,,high
+P028,2026-09-26,Saturday,Roll 11,Rolls,yes,1,105.0,0.0,105.0,0.0,105.0,0.0,ordered,,high
+P029,2026-09-26,Saturday,Roll 12,Rolls,yes,1,25.0,0.0,25.0,0.0,25.0,0.0,ordered,,high
+P030,2026-09-26,Saturday,Roll 13,Rolls,yes,1,75.0,0.0,75.0,15.0,60.0,20.0,ordered,,high
+P032,2026-09-26,Saturday,Roll 15,Rolls,yes,1,20.0,0.0,20.0,7.0,13.0,35.0,ordered,,high
+P033,2026-09-26,Saturday,Roll 16,Rolls,yes,1,20.0,0.0,20.0,2.0,18.0,10.0,ordered,,high
+P034,2026-09-26,Saturday,Roll 17,Rolls,yes,1,10.0,0.0,10.0,2.0,8.0,20.0,ordered,,high
+P036,2026-09-26,Saturday,Roll 19,Rolls,yes,1,20.0,0.0,20.0,7.0,13.0,35.0,ordered,,high
+P037,2026-09-26,Saturday,Roll 20,Rolls,yes,1,15.0,0.0,15.0,6.0,9.0,40.0,ordered,,high
+P039,2026-09-26,Saturday,Roll 22,Rolls,yes,1,8.0,0.0,8.0,0.0,8.0,0.0,ordered,,high
+P040,2026-09-26,Saturday,Roll 23,Rolls,yes,1,24.0,0.0,24.0,2.0,22.0,8.3,ordered,,high
+P041,2026-09-26,Saturday,Roll 24,Rolls,yes,1,24.0,0.0,24.0,2.0,22.0,8.3,ordered,,high
+P042,2026-09-26,Saturday,Roll 25,Rolls,yes,1,24.0,0.0,24.0,4.0,20.0,16.7,ordered,,high
+P043,2026-09-26,Saturday,Roll 26,Rolls,yes,1,10.0,0.0,10.0,6.0,4.0,60.0,ordered,,high
+P044,2026-09-26,Saturday,Roll 27,Rolls,yes,1,10.0,0.0,10.0,3.0,7.0,30.0,ordered,,high
+P046,2026-09-26,Saturday,Croissant 1,Croissants,yes,1,24.0,0.0,24.0,5.0,19.0,20.8,ordered,,high
+P047,2026-09-26,Saturday,Croissant 2,Croissants,yes,1,24.0,0.0,24.0,0.0,24.0,0.0,ordered,,high
+P048,2026-09-26,Saturday,Croissant 3,Croissants,yes,1,12.0,0.0,12.0,0.0,12.0,0.0,ordered,,high
+P049,2026-09-26,Saturday,Croissant 4,Croissants,yes,1,18.0,0.0,18.0,0.0,18.0,0.0,ordered,,high
+P050,2026-09-26,Saturday,Croissant 5,Croissants,yes,1,12.0,0.0,12.0,0.0,12.0,0.0,ordered,,high
+P053,2026-09-26,Saturday,Pastry 1,Pastries,yes,1,12.0,0.0,12.0,0.0,12.0,0.0,ordered,,high
+P054,2026-09-26,Saturday,Pastry 2,Pastries,yes,1,12.0,0.0,12.0,0.0,12.0,0.0,ordered,,high
+P055,2026-09-26,Saturday,Pastry 3,Pastries,yes,1,12.0,0.0,12.0,0.0,12.0,0.0,ordered,,high
+P056,2026-09-26,Saturday,Pastry 4,Pastries,yes,1,15.0,0.0,15.0,0.0,15.0,0.0,ordered,,high
+P057,2026-09-26,Saturday,Pastry 5,Pastries,yes,1,16.0,0.0,16.0,1.0,15.0,6.2,ordered,,check
+P058,2026-09-26,Saturday,Pastry 6,Pastries,yes,1,32.0,0.0,32.0,0.0,32.0,0.0,ordered,,check
+P059,2026-09-26,Saturday,Pastry 7,Pastries,yes,1,10.0,0.0,10.0,0.0,10.0,0.0,ordered,,high
+P060,2026-09-26,Saturday,Pastry 8,Pastries,yes,1,10.0,0.0,10.0,1.0,9.0,10.0,ordered,,high
+P061,2026-09-26,Saturday,Pastry 9,Pastries,yes,1,10.0,0.0,10.0,2.0,8.0,20.0,ordered,,high
+P062,2026-09-26,Saturday,Pastry 10,Pastries,yes,1,10.0,0.0,10.0,2.0,8.0,20.0,ordered,,high
+P063,2026-09-26,Saturday,Pastry 11,Pastries,yes,1,10.0,0.0,10.0,4.0,6.0,40.0,ordered,,high
+P064,2026-09-26,Saturday,Pastry 12,Pastries,yes,1,12.0,0.0,12.0,2.0,10.0,16.7,ordered,,high
+P065,2026-09-26,Saturday,Pastry 13,Pastries,yes,1,30.0,0.0,30.0,1.0,29.0,3.3,ordered,,check
+P066,2026-09-26,Saturday,Pastry 14,Pastries,yes,1,30.0,0.0,30.0,0.0,30.0,0.0,ordered,,high
+P070,2026-09-26,Saturday,Pastry 18,Pastries,yes,1,7.0,0.0,7.0,0.0,7.0,0.0,ordered,,high
+P071,2026-09-26,Saturday,Cake 1,Cakes,yes,2,10.0,,,0.0,,,ordered,2-day item: earlier deliveries not in data,high
+P072,2026-09-26,Saturday,Cake 2,Cakes,yes,1,24.0,0.0,24.0,6.0,18.0,25.0,ordered,,check
+P076,2026-09-26,Saturday,Cake 6,Cakes,yes,2,10.0,,,0.0,,,ordered,2-day item: earlier deliveries not in data,high
+P077,2026-09-26,Saturday,Cake 7,Cakes,yes,2,10.0,,,0.0,,,ordered,2-day item: earlier deliveries not in data,high
+P078,2026-09-26,Saturday,Cake 8,Cakes,yes,2,6.0,,,0.0,,,ordered,2-day item: earlier deliveries not in data,high
+P079,2026-09-26,Saturday,Pretzel 1,Pretzels,yes,1,60.0,0.0,60.0,0.0,60.0,0.0,ordered,,high
+P080,2026-09-26,Saturday,Pretzel 2,Pretzels,yes,1,10.0,0.0,10.0,0.0,10.0,0.0,ordered,,high
+P083,2026-09-26,Saturday,Sandwich 2,Sandwiches,yes,1,,0.0,,2.0,,,leftover_only,no delivery that day (in-store snack or older stock),check
+P086,2026-09-26,Saturday,Sandwich 5,Sandwiches,yes,1,,0.0,,1.0,,,leftover_only,no delivery that day (in-store snack or older stock),high
+P087,2026-09-26,Saturday,Sandwich 6,Sandwiches,yes,1,,0.0,,1.0,,,leftover_only,no delivery that day (in-store snack or older stock),high
+P088,2026-09-26,Saturday,Sandwich 7,Sandwiches,yes,1,,0.0,,1.0,,,leftover_only,no delivery that day (in-store snack or older stock),high
+P089,2026-09-26,Saturday,Sandwich 8,Sandwiches,yes,1,,0.0,,1.0,,,leftover_only,no delivery that day (in-store snack or older stock),high
+P092,2026-09-26,Saturday,Sandwich 11,Sandwiches,yes,1,,0.0,,1.0,,,leftover_only,no delivery that day (in-store snack or older stock),check
+P094,2026-09-26,Saturday,Sandwich 13,Sandwiches,yes,1,,0.0,,4.0,,,leftover_only,no delivery that day (in-store snack or older stock),check
+P096,2026-09-26,Saturday,Sandwich 15,Sandwiches,yes,1,,0.0,,1.0,,,leftover_only,no delivery that day (in-store snack or older stock),high
+P097,2026-09-26,Saturday,Sandwich 16,Sandwiches,yes,1,,0.0,,1.0,,,leftover_only,no delivery that day (in-store snack or older stock),high
+P100,2026-09-26,Saturday,Dessert 2,Desserts,yes,2,10.0,,,0.0,,,ordered,2-day item: earlier deliveries not in data,high
+P001,2026-09-29,Tuesday,Bread 1,Bread,yes,1,1.0,0.0,1.0,0.0,1.0,0.0,ordered,,high
+P003,2026-09-29,Tuesday,Bread 3,Bread,yes,1,14.0,0.0,14.0,0.0,14.0,0.0,ordered,,high
+P004,2026-09-29,Tuesday,Bread 4,Bread,yes,1,5.0,0.0,5.0,1.0,4.0,20.0,ordered,,high
+P006,2026-09-29,Tuesday,Bread 6,Bread,yes,2,10.0,,,0.0,,,ordered,2-day item: earlier deliveries not in data,high
+P007,2026-09-29,Tuesday,Bread 7,Bread,yes,2,4.0,,,0.0,,,ordered,2-day item: earlier deliveries not in data,high
+P008,2026-09-29,Tuesday,Bread 8,Bread,yes,2,3.0,,,0.0,,,ordered,2-day item: earlier deliveries not in data,high
+P009,2026-09-29,Tuesday,Bread 9,Bread,yes,2,3.0,,,0.0,,,ordered,2-day item: earlier deliveries not in data,high
+P010,2026-09-29,Tuesday,Bread 10,Bread,yes,2,3.0,,,0.0,,,ordered,2-day item: earlier deliveries not in data,high
+P011,2026-09-29,Tuesday,Bread 11,Bread,yes,2,8.0,,,4.0,,,ordered,2-day item: earlier deliveries not in data,high
+P012,2026-09-29,Tuesday,Bread 12,Bread,yes,2,4.0,,,0.0,,,ordered,2-day item: earlier deliveries not in data,high
+P014,2026-09-29,Tuesday,Bread 14,Bread,yes,1,4.0,0.0,4.0,0.0,4.0,0.0,ordered,,high
+P016,2026-09-29,Tuesday,Bread 16,Bread,yes,1,9.0,0.0,9.0,3.0,6.0,33.3,ordered,,high
+P017,2026-09-29,Tuesday,Bread 17,Bread,yes,1,5.0,0.0,5.0,1.0,4.0,20.0,ordered,,high
+P019,2026-09-29,Tuesday,Roll 2,Rolls,yes,1,24.0,0.0,24.0,0.0,24.0,0.0,ordered,,high
+P020,2026-09-29,Tuesday,Roll 3,Rolls,yes,1,64.0,0.0,64.0,30.0,34.0,46.9,ordered,,high
+P021,2026-09-29,Tuesday,Roll 4,Rolls,yes,1,45.0,0.0,45.0,0.0,45.0,0.0,ordered,,high
+P022,2026-09-29,Tuesday,Roll 5,Rolls,yes,1,15.0,0.0,15.0,7.0,8.0,46.7,ordered,,high
+P023,2026-09-29,Tuesday,Roll 6,Rolls,yes,1,30.0,0.0,30.0,0.0,30.0,0.0,ordered,,high
+P024,2026-09-29,Tuesday,Roll 7,Rolls,yes,1,15.0,0.0,15.0,0.0,15.0,0.0,ordered,,high
+P025,2026-09-29,Tuesday,Roll 8,Rolls,yes,1,10.0,0.0,10.0,5.0,5.0,50.0,ordered,,high
+P026,2026-09-29,Tuesday,Roll 9,Rolls,yes,1,30.0,0.0,30.0,0.0,30.0,0.0,ordered,,high
+P027,2026-09-29,Tuesday,Roll 10,Rolls,yes,1,30.0,0.0,30.0,0.0,30.0,0.0,ordered,,high
+P028,2026-09-29,Tuesday,Roll 11,Rolls,yes,1,105.0,0.0,105.0,0.0,105.0,0.0,ordered,,high
+P029,2026-09-29,Tuesday,Roll 12,Rolls,yes,1,30.0,0.0,30.0,0.0,30.0,0.0,ordered,,high
+P030,2026-09-29,Tuesday,Roll 13,Rolls,yes,1,75.0,0.0,75.0,7.0,68.0,9.3,ordered,,high
+P032,2026-09-29,Tuesday,Roll 15,Rolls,yes,1,20.0,0.0,20.0,0.0,20.0,0.0,ordered,,high
+P033,2026-09-29,Tuesday,Roll 16,Rolls,yes,1,25.0,0.0,25.0,0.0,25.0,0.0,ordered,,high
+P034,2026-09-29,Tuesday,Roll 17,Rolls,yes,1,8.0,0.0,8.0,4.0,4.0,50.0,ordered,,high
+P036,2026-09-29,Tuesday,Roll 19,Rolls,yes,1,20.0,0.0,20.0,0.0,20.0,0.0,ordered,,high
+P037,2026-09-29,Tuesday,Roll 20,Rolls,yes,1,15.0,0.0,15.0,7.0,8.0,46.7,ordered,,high
+P038,2026-09-29,Tuesday,Roll 21,Rolls,yes,1,10.0,0.0,10.0,0.0,10.0,0.0,ordered,,high
+P039,2026-09-29,Tuesday,Roll 22,Rolls,yes,1,8.0,0.0,8.0,1.0,7.0,12.5,ordered,,high
+P040,2026-09-29,Tuesday,Roll 23,Rolls,yes,1,24.0,0.0,24.0,1.0,23.0,4.2,ordered,,high
+P041,2026-09-29,Tuesday,Roll 24,Rolls,yes,1,24.0,0.0,24.0,0.0,24.0,0.0,ordered,,high
+P042,2026-09-29,Tuesday,Roll 25,Rolls,yes,1,24.0,0.0,24.0,0.0,24.0,0.0,ordered,,high
+P043,2026-09-29,Tuesday,Roll 26,Rolls,yes,1,16.0,0.0,16.0,1.0,15.0,6.2,ordered,,check
+P044,2026-09-29,Tuesday,Roll 27,Rolls,yes,1,10.0,0.0,10.0,13.0,-3.0,130.0,ordered,leftover > ordered (check),check
+P046,2026-09-29,Tuesday,Croissant 1,Croissants,yes,1,24.0,0.0,24.0,0.0,24.0,0.0,ordered,,high
+P047,2026-09-29,Tuesday,Croissant 2,Croissants,yes,1,24.0,0.0,24.0,3.0,21.0,12.5,ordered,,high
+P048,2026-09-29,Tuesday,Croissant 3,Croissants,yes,1,12.0,0.0,12.0,2.0,10.0,16.7,ordered,,high
+P049,2026-09-29,Tuesday,Croissant 4,Croissants,yes,1,24.0,0.0,24.0,0.0,24.0,0.0,ordered,,high
+P050,2026-09-29,Tuesday,Croissant 5,Croissants,yes,1,12.0,0.0,12.0,0.0,12.0,0.0,ordered,,high
+P052,2026-09-29,Tuesday,Croissant 7,Croissants,yes,1,,0.0,,3.0,,,leftover_only,no delivery that day (in-store snack or older stock),high
+P053,2026-09-29,Tuesday,Pastry 1,Pastries,yes,1,16.0,0.0,16.0,4.0,12.0,25.0,ordered,,high
+P054,2026-09-29,Tuesday,Pastry 2,Pastries,yes,1,8.0,0.0,8.0,0.0,8.0,0.0,ordered,,high
+P055,2026-09-29,Tuesday,Pastry 3,Pastries,yes,1,12.0,0.0,12.0,4.0,8.0,33.3,ordered,,high
+P056,2026-09-29,Tuesday,Pastry 4,Pastries,yes,1,20.0,0.0,20.0,10.0,10.0,50.0,ordered,,high
+P057,2026-09-29,Tuesday,Pastry 5,Pastries,yes,1,12.0,0.0,12.0,5.0,7.0,41.7,ordered,,high
+P058,2026-09-29,Tuesday,Pastry 6,Pastries,yes,1,16.0,0.0,16.0,1.0,15.0,6.2,ordered,,high
+P059,2026-09-29,Tuesday,Pastry 7,Pastries,yes,1,15.0,0.0,15.0,1.0,14.0,6.7,ordered,,high
+P060,2026-09-29,Tuesday,Pastry 8,Pastries,yes,1,15.0,0.0,15.0,6.0,9.0,40.0,ordered,,high
+P061,2026-09-29,Tuesday,Pastry 9,Pastries,yes,1,15.0,0.0,15.0,3.0,12.0,20.0,ordered,,high
+P062,2026-09-29,Tuesday,Pastry 10,Pastries,yes,1,15.0,0.0,15.0,4.0,11.0,26.7,ordered,,high
+P063,2026-09-29,Tuesday,Pastry 11,Pastries,yes,1,15.0,0.0,15.0,9.0,6.0,60.0,ordered,,high
+P064,2026-09-29,Tuesday,Pastry 12,Pastries,yes,1,18.0,0.0,18.0,10.0,8.0,55.6,ordered,,high
+P066,2026-09-29,Tuesday,Pastry 14,Pastries,yes,1,36.0,0.0,36.0,0.0,36.0,0.0,ordered,,high
+P069,2026-09-29,Tuesday,Pastry 17,Pastries,yes,1,24.0,0.0,24.0,0.0,24.0,0.0,ordered,,high
+P070,2026-09-29,Tuesday,Pastry 18,Pastries,yes,1,14.0,0.0,14.0,0.0,14.0,0.0,ordered,,high
+P072,2026-09-29,Tuesday,Cake 2,Cakes,yes,1,24.0,0.0,24.0,7.0,17.0,29.2,ordered,,high
+P073,2026-09-29,Tuesday,Cake 3,Cakes,yes,2,10.0,,,1.0,,,ordered,2-day item: earlier deliveries not in data,high
+P077,2026-09-29,Tuesday,Cake 7,Cakes,yes,2,10.0,,,0.0,,,ordered,2-day item: earlier deliveries not in data,high
+P079,2026-09-29,Tuesday,Pretzel 1,Pretzels,yes,1,60.0,0.0,60.0,0.0,60.0,0.0,ordered,,high
+P080,2026-09-29,Tuesday,Pretzel 2,Pretzels,yes,1,10.0,0.0,10.0,0.0,10.0,0.0,ordered,,high
+P081,2026-09-29,Tuesday,Pretzel 3,Pretzels,yes,1,4.0,0.0,4.0,0.0,4.0,0.0,ordered,,high
+P084,2026-09-29,Tuesday,Sandwich 3,Sandwiches,yes,1,,0.0,,1.0,,,leftover_only,no delivery that day (in-store snack or older stock),high
+P085,2026-09-29,Tuesday,Sandwich 4,Sandwiches,yes,1,,0.0,,1.0,,,leftover_only,no delivery that day (in-store snack or older stock),high
+P086,2026-09-29,Tuesday,Sandwich 5,Sandwiches,yes,1,,0.0,,1.0,,,leftover_only,no delivery that day (in-store snack or older stock),high
+P087,2026-09-29,Tuesday,Sandwich 6,Sandwiches,yes,1,,0.0,,2.0,,,leftover_only,no delivery that day (in-store snack or older stock),high
+P088,2026-09-29,Tuesday,Sandwich 7,Sandwiches,yes,1,,0.0,,4.0,,,leftover_only,no delivery that day (in-store snack or older stock),high
+P090,2026-09-29,Tuesday,Sandwich 9,Sandwiches,yes,1,,0.0,,2.0,,,leftover_only,no delivery that day (in-store snack or older stock),high
+P091,2026-09-29,Tuesday,Sandwich 10,Sandwiches,yes,1,,0.0,,1.0,,,leftover_only,no delivery that day (in-store snack or older stock),high
+P094,2026-09-29,Tuesday,Sandwich 13,Sandwiches,yes,1,,0.0,,7.0,,,leftover_only,no delivery that day (in-store snack or older stock),high
+P098,2026-09-29,Tuesday,Sandwich 17,Sandwiches,yes,1,,0.0,,1.0,,,leftover_only,no delivery that day (in-store snack or older stock),high
+P108,2026-09-29,Tuesday,Ingredient 1,Ingredients,no,1,1.0,0.0,1.0,0.0,1.0,0.0,ordered,,high
+P109,2026-09-29,Tuesday,Ingredient 2,Ingredients,no,1,1.0,0.0,1.0,0.0,1.0,0.0,ordered,,high
+P110,2026-09-29,Tuesday,Ingredient 3,Ingredients,no,1,5.0,0.0,5.0,0.0,5.0,0.0,ordered,,high
+P111,2026-09-29,Tuesday,Ingredient 4,Ingredients,no,1,3.0,0.0,3.0,0.0,3.0,0.0,ordered,,high
+P112,2026-09-29,Tuesday,Ingredient 5,Ingredients,no,1,1.0,0.0,1.0,0.0,1.0,0.0,ordered,,high
+P113,2026-09-29,Tuesday,Ingredient 6,Ingredients,no,1,4.0,0.0,4.0,0.0,4.0,0.0,ordered,,high
+P114,2026-09-29,Tuesday,Ingredient 7,Ingredients,no,1,1.0,0.0,1.0,0.0,1.0,0.0,ordered,,high
+P115,2026-09-29,Tuesday,Ingredient 8,Ingredients,no,1,3.0,0.0,3.0,0.0,3.0,0.0,ordered,,high
+P116,2026-09-29,Tuesday,Ingredient 9,Ingredients,no,1,1.0,0.0,1.0,0.0,1.0,0.0,ordered,,high
+P118,2026-09-29,Tuesday,Ingredient 11,Ingredients,no,1,4.0,0.0,4.0,0.0,4.0,0.0,ordered,,high
+P119,2026-09-29,Tuesday,Ingredient 12,Ingredients,no,1,5.0,0.0,5.0,0.0,5.0,0.0,ordered,,high
+P120,2026-09-29,Tuesday,Ingredient 13,Ingredients,no,1,3.0,0.0,3.0,0.0,3.0,0.0,ordered,,high
+P121,2026-09-29,Tuesday,Ingredient 14,Ingredients,no,1,4.0,0.0,4.0,0.0,4.0,0.0,ordered,,high
+P123,2026-09-29,Tuesday,Drink 1,Drinks,no,1,1.0,0.0,1.0,0.0,1.0,0.0,ordered,,high
+P124,2026-09-29,Tuesday,Drink 2,Drinks,no,1,1.0,0.0,1.0,0.0,1.0,0.0,ordered,,high
+P126,2026-09-29,Tuesday,Drink 4,Drinks,no,1,24.0,0.0,24.0,0.0,24.0,0.0,ordered,,high
+P127,2026-09-29,Tuesday,Drink 5,Drinks,no,1,12.0,0.0,12.0,0.0,12.0,0.0,ordered,,high
+P128,2026-09-29,Tuesday,Drink 6,Drinks,no,1,12.0,0.0,12.0,0.0,12.0,0.0,ordered,,high
+P129,2026-09-29,Tuesday,Drink 7,Drinks,no,1,12.0,0.0,12.0,0.0,12.0,0.0,ordered,,high
+P130,2026-09-29,Tuesday,Drink 8,Drinks,no,1,12.0,0.0,12.0,0.0,12.0,0.0,ordered,,high
+P131,2026-09-29,Tuesday,Drink 9,Drinks,no,1,12.0,0.0,12.0,0.0,12.0,0.0,ordered,,high
+P132,2026-09-29,Tuesday,Drink 10,Drinks,no,1,12.0,0.0,12.0,0.0,12.0,0.0,ordered,,high
+P133,2026-09-29,Tuesday,Drink 11,Drinks,no,1,12.0,0.0,12.0,0.0,12.0,0.0,ordered,,high
+P134,2026-09-29,Tuesday,Supply 1,Supplies,no,1,1.0,0.0,1.0,0.0,1.0,0.0,ordered,,high
+P138,2026-09-29,Tuesday,Supply 5,Supplies,no,1,1.0,0.0,1.0,0.0,1.0,0.0,ordered,,high
+P139,2026-09-29,Tuesday,Supply 6,Supplies,no,1,1.0,0.0,1.0,0.0,1.0,0.0,ordered,,high
+P140,2026-09-29,Tuesday,Supply 7,Supplies,no,1,3.0,0.0,3.0,0.0,3.0,0.0,ordered,,high
+P141,2026-09-29,Tuesday,Supply 8,Supplies,no,1,1.0,0.0,1.0,0.0,1.0,0.0,ordered,,high
+P142,2026-09-29,Tuesday,Supply 9,Supplies,no,1,1.0,0.0,1.0,0.0,1.0,0.0,ordered,,high
+P143,2026-09-29,Tuesday,Supply 10,Supplies,no,1,1.0,0.0,1.0,0.0,1.0,0.0,ordered,,high
+P144,2026-09-29,Tuesday,Supply 11,Supplies,no,1,1.0,0.0,1.0,0.0,1.0,0.0,ordered,,high
+P145,2026-09-29,Tuesday,Supply 12,Supplies,no,1,1.0,0.0,1.0,0.0,1.0,0.0,ordered,,high
+P146,2026-09-29,Tuesday,Supply 13,Supplies,no,1,1.0,0.0,1.0,0.0,1.0,0.0,ordered,,high
+P148,2026-09-29,Tuesday,Supply 15,Supplies,no,1,5.0,0.0,5.0,0.0,5.0,0.0,ordered,,high
+P149,2026-09-29,Tuesday,Supply 16,Supplies,no,1,8.0,0.0,8.0,0.0,8.0,0.0,ordered,,high
+P151,2026-09-29,Tuesday,Supply 18,Supplies,no,1,1.0,0.0,1.0,0.0,1.0,0.0,ordered,,high
+P152,2026-09-29,Tuesday,Supply 19,Supplies,no,1,1.0,0.0,1.0,0.0,1.0,0.0,ordered,,high
+P154,2026-09-29,Tuesday,Supply 21,Supplies,no,1,2.0,0.0,2.0,0.0,2.0,0.0,ordered,,high
+P155,2026-09-29,Tuesday,Supply 22,Supplies,no,1,2.0,0.0,2.0,0.0,2.0,0.0,ordered,,high
+P156,2026-09-29,Tuesday,Supply 23,Supplies,no,1,10.0,0.0,10.0,0.0,10.0,0.0,ordered,,high
+P157,2026-09-29,Tuesday,Supply 24,Supplies,no,1,10.0,0.0,10.0,0.0,10.0,0.0,ordered,,high
+P158,2026-09-29,Tuesday,Supply 25,Supplies,no,1,10.0,0.0,10.0,0.0,10.0,0.0,ordered,,high
+P001,2026-10-02,Friday,Bread 1,Bread,yes,1,1.0,0.0,1.0,0.0,1.0,0.0,ordered,,high
+P002,2026-10-02,Friday,Bread 2,Bread,yes,1,35.0,0.0,35.0,9.5,25.5,27.1,ordered,,high
+P003,2026-10-02,Friday,Bread 3,Bread,yes,1,20.0,0.0,20.0,0.0,20.0,0.0,ordered,,high
+P004,2026-10-02,Friday,Bread 4,Bread,yes,1,4.0,0.0,4.0,0.0,4.0,0.0,ordered,,high
+P005,2026-10-02,Friday,Bread 5,Bread,yes,1,5.0,0.0,5.0,0.0,5.0,0.0,ordered,,high
+P006,2026-10-02,Friday,Bread 6,Bread,yes,2,15.0,,,0.0,,,ordered,2-day item: earlier deliveries not in data,check
+P007,2026-10-02,Friday,Bread 7,Bread,yes,2,5.0,,,1.0,,,ordered,2-day item: earlier deliveries not in data,check
+P008,2026-10-02,Friday,Bread 8,Bread,yes,2,5.0,,,0.0,,,ordered,2-day item: earlier deliveries not in data,check
+P009,2026-10-02,Friday,Bread 9,Bread,yes,2,5.0,,,0.5,,,ordered,2-day item: earlier deliveries not in data,check
+P010,2026-10-02,Friday,Bread 10,Bread,yes,2,5.0,,,2.0,,,ordered,2-day item: earlier deliveries not in data,check
+P011,2026-10-02,Friday,Bread 11,Bread,yes,2,5.0,,,0.0,,,ordered,2-day item: earlier deliveries not in data,check
+P012,2026-10-02,Friday,Bread 12,Bread,yes,2,5.0,,,0.0,,,ordered,2-day item: earlier deliveries not in data,check
+P013,2026-10-02,Friday,Bread 13,Bread,yes,2,5.0,,,0.0,,,ordered,2-day item: earlier deliveries not in data,check
+P014,2026-10-02,Friday,Bread 14,Bread,yes,1,4.0,0.0,4.0,1.5,2.5,37.5,ordered,,check
+P015,2026-10-02,Friday,Bread 15,Bread,yes,1,4.0,0.0,4.0,3.0,1.0,75.0,ordered,,check
+P016,2026-10-02,Friday,Bread 16,Bread,yes,1,9.0,0.0,9.0,0.0,9.0,0.0,ordered,,high
+P017,2026-10-02,Friday,Bread 17,Bread,yes,1,5.0,0.0,5.0,2.0,3.0,40.0,ordered,,high
+P019,2026-10-02,Friday,Roll 2,Rolls,yes,1,24.0,0.0,24.0,0.0,24.0,0.0,ordered,,high
+P020,2026-10-02,Friday,Roll 3,Rolls,yes,1,72.0,0.0,72.0,25.0,47.0,34.7,ordered,,high
+P021,2026-10-02,Friday,Roll 4,Rolls,yes,1,40.0,0.0,40.0,2.0,38.0,5.0,ordered,,high
+P022,2026-10-02,Friday,Roll 5,Rolls,yes,1,15.0,0.0,15.0,0.0,15.0,0.0,ordered,,high
+P023,2026-10-02,Friday,Roll 6,Rolls,yes,1,30.0,0.0,30.0,0.0,30.0,0.0,ordered,,high
+P024,2026-10-02,Friday,Roll 7,Rolls,yes,1,15.0,0.0,15.0,8.0,7.0,53.3,ordered,,check
+P025,2026-10-02,Friday,Roll 8,Rolls,yes,1,10.0,0.0,10.0,7.0,3.0,70.0,ordered,,high
+P026,2026-10-02,Friday,Roll 9,Rolls,yes,1,30.0,0.0,30.0,0.0,30.0,0.0,ordered,,high
+P027,2026-10-02,Friday,Roll 10,Rolls,yes,1,30.0,0.0,30.0,0.0,30.0,0.0,ordered,,high
+P028,2026-10-02,Friday,Roll 11,Rolls,yes,1,105.0,0.0,105.0,0.0,105.0,0.0,ordered,,high
+P029,2026-10-02,Friday,Roll 12,Rolls,yes,1,30.0,0.0,30.0,0.0,30.0,0.0,ordered,,high
+P030,2026-10-02,Friday,Roll 13,Rolls,yes,1,75.0,0.0,75.0,0.0,75.0,0.0,ordered,,high
+P032,2026-10-02,Friday,Roll 15,Rolls,yes,1,20.0,0.0,20.0,0.0,20.0,0.0,ordered,,high
+P033,2026-10-02,Friday,Roll 16,Rolls,yes,1,30.0,0.0,30.0,0.0,30.0,0.0,ordered,,high
+P034,2026-10-02,Friday,Roll 17,Rolls,yes,1,10.0,0.0,10.0,8.0,2.0,80.0,ordered,,high
+P036,2026-10-02,Friday,Roll 19,Rolls,yes,1,20.0,0.0,20.0,1.0,19.0,5.0,ordered,,high
+P037,2026-10-02,Friday,Roll 20,Rolls,yes,1,25.0,0.0,25.0,7.0,18.0,28.0,ordered,,high
+P039,2026-10-02,Friday,Roll 22,Rolls,yes,1,10.0,0.0,10.0,0.0,10.0,0.0,ordered,,high
+P040,2026-10-02,Friday,Roll 23,Rolls,yes,1,24.0,0.0,24.0,2.0,22.0,8.3,ordered,,high
+P041,2026-10-02,Friday,Roll 24,Rolls,yes,1,24.0,0.0,24.0,7.0,17.0,29.2,ordered,,high
+P042,2026-10-02,Friday,Roll 25,Rolls,yes,1,24.0,0.0,24.0,2.0,22.0,8.3,ordered,,high
+P043,2026-10-02,Friday,Roll 26,Rolls,yes,1,10.0,0.0,10.0,3.0,7.0,30.0,ordered,,high
+P044,2026-10-02,Friday,Roll 27,Rolls,yes,1,10.0,0.0,10.0,9.0,1.0,90.0,ordered,,high
+P045,2026-10-02,Friday,Roll 28,Rolls,yes,1,,0.0,,10.0,,,leftover_only,no delivery that day (in-store snack or older stock),high
+P046,2026-10-02,Friday,Croissant 1,Croissants,yes,1,24.0,0.0,24.0,4.0,20.0,16.7,ordered,,high
+P047,2026-10-02,Friday,Croissant 2,Croissants,yes,1,24.0,0.0,24.0,0.0,24.0,0.0,ordered,,high
+P048,2026-10-02,Friday,Croissant 3,Croissants,yes,1,12.0,0.0,12.0,10.0,2.0,83.3,ordered,,high
+P049,2026-10-02,Friday,Croissant 4,Croissants,yes,1,36.0,0.0,36.0,0.0,36.0,0.0,ordered,,high
+P051,2026-10-02,Friday,Croissant 6,Croissants,yes,1,12.0,0.0,12.0,0.0,12.0,0.0,ordered,,high
+P053,2026-10-02,Friday,Pastry 1,Pastries,yes,1,12.0,0.0,12.0,0.0,12.0,0.0,ordered,,high
+P054,2026-10-02,Friday,Pastry 2,Pastries,yes,1,12.0,0.0,12.0,4.0,8.0,33.3,ordered,,high
+P055,2026-10-02,Friday,Pastry 3,Pastries,yes,1,12.0,0.0,12.0,1.0,11.0,8.3,ordered,,high
+P056,2026-10-02,Friday,Pastry 4,Pastries,yes,1,20.0,0.0,20.0,2.0,18.0,10.0,ordered,,high
+P057,2026-10-02,Friday,Pastry 5,Pastries,yes,1,48.0,0.0,48.0,2.0,46.0,4.2,ordered,,high
+P058,2026-10-02,Friday,Pastry 6,Pastries,yes,1,48.0,0.0,48.0,3.0,45.0,6.2,ordered,,high
+P059,2026-10-02,Friday,Pastry 7,Pastries,yes,1,10.0,0.0,10.0,1.0,9.0,10.0,ordered,,high
+P060,2026-10-02,Friday,Pastry 8,Pastries,yes,1,10.0,0.0,10.0,1.0,9.0,10.0,ordered,,high
+P061,2026-10-02,Friday,Pastry 9,Pastries,yes,1,10.0,0.0,10.0,0.0,10.0,0.0,ordered,,high
+P062,2026-10-02,Friday,Pastry 10,Pastries,yes,1,10.0,0.0,10.0,1.0,9.0,10.0,ordered,,high
+P063,2026-10-02,Friday,Pastry 11,Pastries,yes,1,10.0,0.0,10.0,4.0,6.0,40.0,ordered,,high
+P064,2026-10-02,Friday,Pastry 12,Pastries,yes,1,12.0,0.0,12.0,0.0,12.0,0.0,ordered,,high
+P065,2026-10-02,Friday,Pastry 13,Pastries,yes,1,42.0,0.0,42.0,0.0,42.0,0.0,ordered,,high
+P067,2026-10-02,Friday,Pastry 15,Pastries,yes,1,36.0,0.0,36.0,16.0,20.0,44.4,ordered,,high
+P068,2026-10-02,Friday,Pastry 16,Pastries,yes,1,8.0,0.0,8.0,0.0,8.0,0.0,ordered,,high
+P069,2026-10-02,Friday,Pastry 17,Pastries,yes,1,24.0,0.0,24.0,0.0,24.0,0.0,ordered,,high
+P070,2026-10-02,Friday,Pastry 18,Pastries,yes,1,7.0,0.0,7.0,0.0,7.0,0.0,ordered,,high
+P071,2026-10-02,Friday,Cake 1,Cakes,yes,2,,,,4.0,,,leftover_only,2-day item: earlier deliveries not in data,high
+P074,2026-10-02,Friday,Cake 4,Cakes,yes,2,16.0,,,0.0,,,ordered,2-day item: earlier deliveries not in data,high
+P075,2026-10-02,Friday,Cake 5,Cakes,yes,2,20.0,,,0.0,,,ordered,2-day item: earlier deliveries not in data,high
+P076,2026-10-02,Friday,Cake 6,Cakes,yes,2,20.0,,,0.0,,,ordered,2-day item: earlier deliveries not in data,high
+P079,2026-10-02,Friday,Pretzel 1,Pretzels,yes,1,60.0,0.0,60.0,0.0,60.0,0.0,ordered,,high
+P090,2026-10-02,Friday,Sandwich 9,Sandwiches,yes,1,,0.0,,1.0,,,leftover_only,no delivery that day (in-store snack or older stock),high
+P092,2026-10-02,Friday,Sandwich 11,Sandwiches,yes,1,,0.0,,3.0,,,leftover_only,no delivery that day (in-store snack or older stock),high
+P093,2026-10-02,Friday,Sandwich 12,Sandwiches,yes,1,,0.0,,3.0,,,leftover_only,no delivery that day (in-store snack or older stock),high
+P095,2026-10-02,Friday,Sandwich 14,Sandwiches,yes,1,,0.0,,1.0,,,leftover_only,no delivery that day (in-store snack or older stock),high
+P099,2026-10-02,Friday,Dessert 1,Desserts,yes,2,5.0,,,0.0,,,ordered,2-day item: earlier deliveries not in data,high
+P100,2026-10-02,Friday,Dessert 2,Desserts,yes,2,20.0,,,1.0,,,ordered,2-day item: earlier deliveries not in data,high
+P101,2026-10-02,Friday,Seasonal 1,Seasonal,yes,1,1.0,0.0,1.0,0.0,1.0,0.0,ordered,,high
+P102,2026-10-02,Friday,Seasonal 2,Seasonal,yes,1,1.0,0.0,1.0,0.0,1.0,0.0,ordered,,high
+P103,2026-10-02,Friday,Seasonal 3,Seasonal,yes,1,1.0,0.0,1.0,0.0,1.0,0.0,ordered,,high
+P104,2026-10-02,Friday,Seasonal 4,Seasonal,yes,1,1.0,0.0,1.0,0.0,1.0,0.0,ordered,,high
+P105,2026-10-02,Friday,Seasonal 5,Seasonal,yes,1,0.5,0.0,0.5,0.0,0.5,0.0,ordered,,high
+P106,2026-10-02,Friday,Seasonal 6,Seasonal,yes,1,1.0,0.0,1.0,0.0,1.0,0.0,ordered,,high
+P107,2026-10-02,Friday,Seasonal 7,Seasonal,yes,1,1.0,0.0,1.0,0.0,1.0,0.0,ordered,,high
+P110,2026-10-02,Friday,Ingredient 3,Ingredients,no,1,5.0,0.0,5.0,0.0,5.0,0.0,ordered,,high
+P111,2026-10-02,Friday,Ingredient 4,Ingredients,no,1,2.0,0.0,2.0,0.0,2.0,0.0,ordered,,high
+P113,2026-10-02,Friday,Ingredient 6,Ingredients,no,1,4.0,0.0,4.0,0.0,4.0,0.0,ordered,,high
+P114,2026-10-02,Friday,Ingredient 7,Ingredients,no,1,2.0,0.0,2.0,0.0,2.0,0.0,ordered,,high
+P117,2026-10-02,Friday,Ingredient 10,Ingredients,no,1,2.0,0.0,2.0,0.0,2.0,0.0,ordered,,high
+P118,2026-10-02,Friday,Ingredient 11,Ingredients,no,1,4.0,0.0,4.0,0.0,4.0,0.0,ordered,,high
+P119,2026-10-02,Friday,Ingredient 12,Ingredients,no,1,6.0,0.0,6.0,0.0,6.0,0.0,ordered,,check
+P121,2026-10-02,Friday,Ingredient 14,Ingredients,no,1,4.0,0.0,4.0,0.0,4.0,0.0,ordered,,high
+P122,2026-10-02,Friday,Ingredient 15,Ingredients,no,1,60.0,0.0,60.0,0.0,60.0,0.0,ordered,,high
+P125,2026-10-02,Friday,Drink 3,Drinks,no,1,3.0,0.0,3.0,0.0,3.0,0.0,ordered,,high
+P126,2026-10-02,Friday,Drink 4,Drinks,no,1,12.0,0.0,12.0,0.0,12.0,0.0,ordered,,high
+P129,2026-10-02,Friday,Drink 7,Drinks,no,1,12.0,0.0,12.0,0.0,12.0,0.0,ordered,,high
+P135,2026-10-02,Friday,Supply 2,Supplies,no,1,3.0,0.0,3.0,0.0,3.0,0.0,ordered,,high
+P136,2026-10-02,Friday,Supply 3,Supplies,no,1,2.0,0.0,2.0,0.0,2.0,0.0,ordered,,high
+P137,2026-10-02,Friday,Supply 4,Supplies,no,1,1.0,0.0,1.0,0.0,1.0,0.0,ordered,,high
+P138,2026-10-02,Friday,Supply 5,Supplies,no,1,1.0,0.0,1.0,0.0,1.0,0.0,ordered,,high
+P147,2026-10-02,Friday,Supply 14,Supplies,no,1,1.0,0.0,1.0,0.0,1.0,0.0,ordered,,high
+P150,2026-10-02,Friday,Supply 17,Supplies,no,1,1.0,0.0,1.0,0.0,1.0,0.0,ordered,,high
+P151,2026-10-02,Friday,Supply 18,Supplies,no,1,1.0,0.0,1.0,0.0,1.0,0.0,ordered,,high
+P153,2026-10-02,Friday,Supply 20,Supplies,no,1,7.0,0.0,7.0,0.0,7.0,0.0,ordered,,high
+P001,2026-10-03,Saturday,Bread 1,Bread,yes,1,1.0,0.0,1.0,0.0,1.0,0.0,ordered,,high
+P010,2026-10-03,Saturday,Bread 10,Bread,yes,2,,5.0,5.0,0.5,4.5,10.0,leftover_only,2-day item: from earlier delivery,high
+P011,2026-10-03,Saturday,Bread 11,Bread,yes,2,8.0,5.0,13.0,0.0,13.0,0.0,ordered,,high
+P014,2026-10-03,Saturday,Bread 14,Bread,yes,1,4.0,0.0,4.0,0.0,4.0,0.0,ordered,,high
+P016,2026-10-03,Saturday,Bread 16,Bread,yes,1,9.0,0.0,9.0,0.0,9.0,0.0,ordered,,high
+P018,2026-10-03,Saturday,Roll 1,Rolls,yes,1,,0.0,,5.0,,,leftover_only,no delivery that day (in-store snack or older stock),high
+P019,2026-10-03,Saturday,Roll 2,Rolls,yes,1,32.0,0.0,32.0,0.0,32.0,0.0,ordered,,high
+P020,2026-10-03,Saturday,Roll 3,Rolls,yes,1,80.0,0.0,80.0,40.0,40.0,50.0,ordered,,high
+P022,2026-10-03,Saturday,Roll 5,Rolls,yes,1,15.0,0.0,15.0,0.0,15.0,0.0,ordered,,high
+P023,2026-10-03,Saturday,Roll 6,Rolls,yes,1,20.0,0.0,20.0,0.0,20.0,0.0,ordered,,high
+P024,2026-10-03,Saturday,Roll 7,Rolls,yes,1,15.0,0.0,15.0,0.0,15.0,0.0,ordered,,high
+P025,2026-10-03,Saturday,Roll 8,Rolls,yes,1,10.0,0.0,10.0,2.0,8.0,20.0,ordered,,high
+P026,2026-10-03,Saturday,Roll 9,Rolls,yes,1,30.0,0.0,30.0,0.0,30.0,0.0,ordered,,high
+P028,2026-10-03,Saturday,Roll 11,Rolls,yes,1,105.0,0.0,105.0,0.0,105.0,0.0,ordered,,high
+P029,2026-10-03,Saturday,Roll 12,Rolls,yes,1,20.0,0.0,20.0,0.0,20.0,0.0,ordered,,high
+P030,2026-10-03,Saturday,Roll 13,Rolls,yes,1,75.0,0.0,75.0,2.0,73.0,2.7,ordered,,high
+P031,2026-10-03,Saturday,Roll 14,Rolls,yes,1,15.0,0.0,15.0,0.0,15.0,0.0,ordered,,high
+P032,2026-10-03,Saturday,Roll 15,Rolls,yes,1,20.0,0.0,20.0,0.0,20.0,0.0,ordered,,high
+P035,2026-10-03,Saturday,Roll 18,Rolls,yes,1,15.0,0.0,15.0,0.0,15.0,0.0,ordered,,high
+P036,2026-10-03,Saturday,Roll 19,Rolls,yes,1,20.0,0.0,20.0,0.0,20.0,0.0,ordered,,high
+P038,2026-10-03,Saturday,Roll 21,Rolls,yes,1,10.0,0.0,10.0,0.0,10.0,0.0,ordered,,high
+P040,2026-10-03,Saturday,Roll 23,Rolls,yes,1,24.0,0.0,24.0,0.0,24.0,0.0,ordered,,high
+P041,2026-10-03,Saturday,Roll 24,Rolls,yes,1,24.0,0.0,24.0,0.0,24.0,0.0,ordered,,high
+P042,2026-10-03,Saturday,Roll 25,Rolls,yes,1,24.0,0.0,24.0,0.0,24.0,0.0,ordered,,high
+P043,2026-10-03,Saturday,Roll 26,Rolls,yes,1,10.0,0.0,10.0,5.0,5.0,50.0,ordered,,high
+P044,2026-10-03,Saturday,Roll 27,Rolls,yes,1,10.0,0.0,10.0,6.0,4.0,60.0,ordered,,high
+P046,2026-10-03,Saturday,Croissant 1,Croissants,yes,1,24.0,0.0,24.0,0.0,24.0,0.0,ordered,,high
+P047,2026-10-03,Saturday,Croissant 2,Croissants,yes,1,24.0,0.0,24.0,3.0,21.0,12.5,ordered,,high
+P048,2026-10-03,Saturday,Croissant 3,Croissants,yes,1,,0.0,,9.0,,,leftover_only,no delivery that day (in-store snack or older stock),high
+P049,2026-10-03,Saturday,Croissant 4,Croissants,yes,1,36.0,0.0,36.0,1.0,35.0,2.8,ordered,,high
+P050,2026-10-03,Saturday,Croissant 5,Croissants,yes,1,6.0,0.0,6.0,0.0,6.0,0.0,ordered,,high
+P057,2026-10-03,Saturday,Pastry 5,Pastries,yes,1,,0.0,,2.0,,,leftover_only,no delivery that day (in-store snack or older stock),high
+P065,2026-10-03,Saturday,Pastry 13,Pastries,yes,1,,0.0,,8.0,,,leftover_only,no delivery that day (in-store snack or older stock),high
+P078,2026-10-03,Saturday,Cake 8,Cakes,yes,2,,0.0,,1.0,,,leftover_only,2-day item: from earlier delivery,high
+P079,2026-10-03,Saturday,Pretzel 1,Pretzels,yes,1,60.0,0.0,60.0,9.0,51.0,15.0,ordered,,high
+P082,2026-10-03,Saturday,Sandwich 1,Sandwiches,yes,1,,0.0,,2.0,,,leftover_only,no delivery that day (in-store snack or older stock),high
+P083,2026-10-03,Saturday,Sandwich 2,Sandwiches,yes,1,,0.0,,5.0,,,leftover_only,no delivery that day (in-store snack or older stock),high
+P084,2026-10-03,Saturday,Sandwich 3,Sandwiches,yes,1,,0.0,,3.0,,,leftover_only,no delivery that day (in-store snack or older stock),high
+P086,2026-10-03,Saturday,Sandwich 5,Sandwiches,yes,1,,0.0,,1.0,,,leftover_only,no delivery that day (in-store snack or older stock),high
+P088,2026-10-03,Saturday,Sandwich 7,Sandwiches,yes,1,,0.0,,1.0,,,leftover_only,no delivery that day (in-store snack or older stock),high
+P092,2026-10-03,Saturday,Sandwich 11,Sandwiches,yes,1,,0.0,,1.0,,,leftover_only,no delivery that day (in-store snack or older stock),high
+P100,2026-10-03,Saturday,Dessert 2,Desserts,yes,2,,20.0,20.0,1.0,19.0,5.0,leftover_only,2-day item: from earlier delivery,high
